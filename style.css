@@ -1,0 +1,408 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Warna latar belakang lebih terang */
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(90deg, #4db8b2, #3a3a52); /* Menyelaraskan warna header dengan sidebar */
+  color: #fff;
+  padding: 40px 20px; /* Padding lebih kecil */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lebih ringan */
+}
+
+header h1 {
+  font-size: 2rem; /* Ukuran font lebih kecil */
+  font-weight: 600; /* Tipe huruf lebih ringan */
+  margin-left: 22x0px;
+  word-wrap: break-word;
+
+}
+/* Profile Picture Styles */
+.profile-picture img {
+  width: 150px; /* Ukuran lebih kecil untuk tampilan profesional */
+  margin-left: 220px;
+  height: 150px;
+  border-radius: 50%; /* Membuat gambar bulat */
+  border: 2px solid #fff; /* Border putih untuk memberikan kontras */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk kesan elegan */
+  object-fit: cover; /* Pastikan gambar proporsional dan tidak terdistorsi */
+  transition: transform 0.3s ease; /* Efek transform saat hover */
+}
+
+/* Hover Effect for Profile Picture */
+.profile-picture img:hover {
+  transform: scale(1.05); /* Efek zoom in saat hover */
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px; /* Lebar sidebar sedikit lebih besar untuk tampilan lebih mewah */
+  height: 100%;
+  background: linear-gradient(180deg, #4db8b2, #3a3a52); /* Menyelaraskan warna dengan header */
+  color: #fff;
+  padding: 30px 20px; /* Padding lebih besar untuk ruang lebih banyak */
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 10px; /* Sudut membulat untuk desain modern */
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1); /* Bayangan lembut pada sisi kanan sidebar */
+}
+
+.sidebar h2 {
+  font-size: 1.6rem; /* Ukuran font sedikit lebih besar */
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px; /* Memberikan jarak antar huruf untuk kesan lebih elegan */
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem; /* Ukuran font sedikit lebih besar */
+  display: block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #3d8c85; /* Warna hijau lebih gelap pada hover */
+  transform: translateX(8px); /* Efek geser lebih terasa */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambah bayangan saat hover */
+}
+
+/* Sidebar Menu Icon */
+.sidebar ul li a i {
+  margin-right: 10px; /* Jarak antara ikon dan teks */
+  font-size: 1.2rem; /* Ukuran ikon sedikit lebih besar */
+}
+
+/* Profile Picture Styles */
+.profile-picture img {
+  width: 170px; /* Ukuran lebih besar untuk memberi kesan lebih profesional */
+  height: 170px;
+  border-radius: 50%;
+  border: 3px solid #fff; /* Border putih untuk memberikan kontras */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Bayangan lebih halus */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1); /* Efek zoom lebih besar pada hover */
+}
+
+/* Sidebar Footer */
+.sidebar .footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+}
+/* Hover Effect for Sidebar Links */
+.sidebar ul li a:hover {
+  background-color: #2f7263; /* Perubahan warna lebih gelap saat hover */
+  transform: translateX(8px); /* Efek geser sedikit lebih halus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan lebih elegan */
+}
+
+/* Main Content Styles */
+.main-container {
+  margin-left: 270px; /* Sesuaikan dengan lebar sidebar yang lebih besar */
+  padding: 40px 30px; /* Padding lebih luas untuk ruang lebih banyak */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Main Content Styles */
+.main-container {
+  margin-left: 240px; /* Sesuaikan dengan lebar sidebar */
+  padding: 40px 20px; /* Padding lebih kecil */
+}
+
+/* Database Section Styles */
+#database {
+  background-color: #fff; /* Latar belakang putih */
+  padding: 30px; /* Padding lebih kecil */
+  border-radius: 12px; /* Sudut lebih membulat */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  margin-bottom: 40px; /* Jarak lebih kecil */
+}
+/* Judul Section */
+#database h2 {
+  font-size: 2rem; /* Ukuran font lebih kecil */
+  color: #3a3a52; /* Warna gelap yang elegan */
+  font-weight: 600; /* Font lebih ringan */
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Paragraf dalam Database Section */
+#database p {
+  font-size: 16px; /* Ukuran font lebih kecil */
+  line-height: 1.7;
+  color: #666; /* Warna teks lebih lembut */
+  margin-bottom: 20px;
+  text-align: justify; /* Rata kiri-kanan untuk pembacaan yang lebih baik */
+}
+
+/* Button atau Tautan */
+#database a {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #3d8c85; /* Hijau yang segar */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px; /* Sudut lebih membulat */
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+#database a:hover {
+  background-color: #2f7263; /* Warna lebih gelap saat hover */
+  transform: scale(1.03); /* Efek zoom ringan */
+}
+
+/* Image Styling for Database Section */
+#database img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Sudut membulat pada gambar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  margin-top: 15px;
+  transition: transform 0.3s ease;
+}
+
+#database img:hover {
+  transform: scale(1.03); /* Efek zoom ringan pada gambar */
+}
+
+/* Database Table Styling */
+#database table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+#database th, #database td {
+  padding: 12px;
+  text-align: left; /* Rata kiri untuk teks dalam tabel */
+  border-bottom: 1px solid #ddd; /* Garis bawah halus */
+  font-size: 14px; /* Ukuran font lebih kecil */
+  color: #444;
+}
+
+#database th {
+  background-color: #3a3a52; /* Warna gelap pada header tabel */
+  color: #fff;
+  font-weight: 700;
+}
+
+#database tr:hover {
+  background-color: #f1f5f9; /* Highlight baris tabel saat hover */
+}
+
+#database td a {
+  color: #3d8c85;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+#database td a:hover {
+  color: #2f7263; /* Warna lebih gelap saat hover pada link */
+}
+
+
+.content section {
+  margin-bottom: 60px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px; /* Sudut lebih membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus */
+}
+
+/* Blog Section Styles */
+.article-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus */
+  border-radius: 10px;
+  overflow: hidden;
+  width: calc(50% - 10px);
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+
+.article-card img {
+  width: 100%;
+  height: 180px; /* Ukuran gambar lebih kecil */
+  object-fit: cover;
+}
+
+.article-card-content {
+  padding: 20px;
+}
+
+.article-card-content h3 {
+  margin-top: 0;
+  font-size: 1.6rem; /* Ukuran font lebih kecil */
+  color: #3a3a52;
+}
+
+.article-card-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+  color: #555;
+}
+
+.article-card-content a {
+  color: #4db8b2; /* Warna hijau untuk kesan segar */
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid #4db8b2;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.article-card-content a:hover {
+  color: #3a3a52;
+  border-color: #3a3a52;
+}
+/* Contact Section Styles */
+#contact {
+  background-color: #f1f5f9; /* Latar belakang abu-abu muda untuk tampilan bersih */
+  padding: 80px 40px; /* Padding lebih besar untuk memberikan ruang lebih banyak */
+  border-radius: 20px; /* Sudut membulat untuk desain modern */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk kesan elegan */
+}
+
+/* Contact Form Container */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px; /* Jarak antar elemen lebih lebar */
+}
+
+/* Contact Form Styles */
+.contact-form {
+  flex: 1;
+  min-width: 300px; /* Ukuran minimal agar responsif */
+  background-color: #fff; /* Latar belakang putih untuk form */
+  padding: 40px;
+  border-radius: 10px; /* Sudut membulat pada form */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk kedalaman */
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #3a3a52; /* Warna judul yang lebih gelap untuk kontras */
+  font-weight: 700; /* Font yang lebih tebal untuk tampilan profesional */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd; /* Border ringan untuk form input */
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05); /* Bayangan halus di dalam input */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Efek saat fokus */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3d8c85; /* Warna border berubah saat fokus */
+  box-shadow: 0 0 6px rgba(61, 140, 133, 0.4); /* Efek fokus pada input */
+}
+
+.contact-form button {
+  background-color: #3d8c85; /* Warna tombol senada dengan desain */
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2f7263; /* Warna tombol sedikit lebih gelap saat hover */
+  transform: scale(1.05); /* Efek tombol membesar sedikit */
+}
+
+/* Contact Social Links */
+.contact-social {
+  flex: 1;
+  min-width: 300px; /* Ukuran minimal untuk responsif */
+}
+
+.contact-social h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3a3a52; /* Warna judul sosial media */
+  font-weight: 700; /* Font lebih tebal */
+}
+
+.contact-social a {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 28px;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease; /* Efek transisi pada link */
+}
+
+.contact-social a:hover {
+  color: #3d8c85; /* Warna hijau saat hover */
+  transform: scale(1.2); /* Efek zoom saat hover */
+}
+
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #4db8b2; /* Warna footer senada dengan header dan sidebar */
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 60px;
+  font-size: 16px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus */
+}
+.blog-posts{
+   justify-content: center;
+   width: 160%;
+   margin-left: 95px ;
+
+}
+
+
+
+footer p {
+  margin: 0;
+}
+
